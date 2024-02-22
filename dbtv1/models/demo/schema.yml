@@ -1,0 +1,10 @@
+
+version: 2
+
+sources:
+  - name: fivetran_src
+    description: "connecting with fivetran"
+    database: HB_DB
+    schema: HB_DB_SCHEMA
+    tables: 
+      - name: EMPLOYEE

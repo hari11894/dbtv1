@@ -1,0 +1,178 @@
+[0m15:22:33.152518 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220C4DC2430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220C7655070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220C7655A90>]}
+
+
+============================== 15:22:33.157517 | 104b83e4-d605-45ab-a2aa-6b073156d098 ==============================
+[0m15:22:33.157517 [info ] [MainThread]: Running with dbt=1.7.8
+[0m15:22:33.158517 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\haribabu.thamatam\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt init dbtv1', 'send_anonymous_usage_stats': 'True'}
+[0m15:22:33.159518 [debug] [MainThread]: Starter project path: c:\projects\others\fivetran\dbt-env\lib\site-packages\dbt\include\starter_project
+[0m15:22:33.204518 [info ] [MainThread]: 
+Your new dbt project "dbtv1" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:22:33.205520 [info ] [MainThread]: Setting up your profile.
+[0m15:32:40.501992 [info ] [MainThread]: Profile dbtv1 written to C:\Users\haribabu.thamatam\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m15:32:40.505019 [debug] [MainThread]: Command `dbt init` succeeded at 15:32:40.503986 after 607.35 seconds
+[0m15:32:40.505019 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220C4DC2430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220C7655160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000220C2507850>]}
+[0m15:32:40.506004 [debug] [MainThread]: Flushing usage events
+[0m15:38:18.533874 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F505713460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F507FD7F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F507FD7760>]}
+
+
+============================== 15:38:18.536890 | 08d5c86f-55bc-4709-aae3-f53a350fad64 ==============================
+[0m15:38:18.536890 [info ] [MainThread]: Running with dbt=1.7.8
+[0m15:38:18.537873 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\haribabu.thamatam\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:38:18.538874 [info ] [MainThread]: dbt version: 1.7.8
+[0m15:38:18.538874 [info ] [MainThread]: python version: 3.9.0
+[0m15:38:18.541873 [info ] [MainThread]: python path: c:\projects\others\fivetran\dbt-env\scripts\python.exe
+[0m15:38:18.542874 [info ] [MainThread]: os info: Windows-10-10.0.19041-SP0
+[0m15:38:18.843974 [info ] [MainThread]: Using profiles dir at C:\Users\haribabu.thamatam\.dbt
+[0m15:38:18.844874 [info ] [MainThread]: Using profiles.yml file at C:\Users\haribabu.thamatam\.dbt\profiles.yml
+[0m15:38:18.845874 [info ] [MainThread]: Using dbt_project.yml file at C:\Projects\others\fivetran\dbt-env\dbtv1\dbt_project.yml
+[0m15:38:18.849874 [info ] [MainThread]: adapter type: snowflake
+[0m15:38:18.849874 [info ] [MainThread]: adapter version: 1.7.2
+[0m15:38:18.850911 [info ] [MainThread]: Configuration:
+[0m15:38:18.851874 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m15:38:18.851874 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m15:38:18.851874 [info ] [MainThread]: Required dependencies:
+[0m15:38:18.852874 [debug] [MainThread]: Executing "git --help"
+[0m15:38:18.948874 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:38:18.949874 [debug] [MainThread]: STDERR: "b''"
+[0m15:38:18.949874 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:38:18.950874 [info ] [MainThread]: Connection:
+[0m15:38:18.951873 [info ] [MainThread]:   account: gc93226.us-east-2
+[0m15:38:18.951873 [info ] [MainThread]:   user: thamatam
+[0m15:38:18.953889 [info ] [MainThread]:   database: FIVETRAN_DATABASE_DEST
+[0m15:38:18.954875 [info ] [MainThread]:   warehouse: FIVETRAN_WAREHOUSE
+[0m15:38:18.954875 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m15:38:18.955874 [info ] [MainThread]:   schema: PUBLIC
+[0m15:38:18.955874 [info ] [MainThread]:   authenticator: None
+[0m15:38:18.956875 [info ] [MainThread]:   private_key_path: None
+[0m15:38:18.956875 [info ] [MainThread]:   oauth_client_id: None
+[0m15:38:18.957873 [info ] [MainThread]:   query_tag: None
+[0m15:38:18.957873 [info ] [MainThread]:   client_session_keep_alive: False
+[0m15:38:18.958874 [info ] [MainThread]:   host: None
+[0m15:38:18.958874 [info ] [MainThread]:   port: None
+[0m15:38:18.959874 [info ] [MainThread]:   proxy_host: None
+[0m15:38:18.959874 [info ] [MainThread]:   proxy_port: None
+[0m15:38:18.960874 [info ] [MainThread]:   protocol: None
+[0m15:38:18.960874 [info ] [MainThread]:   connect_retries: 1
+[0m15:38:18.961875 [info ] [MainThread]:   connect_timeout: None
+[0m15:38:18.961875 [info ] [MainThread]:   retry_on_database_errors: False
+[0m15:38:18.964873 [info ] [MainThread]:   retry_all: False
+[0m15:38:18.965873 [info ] [MainThread]:   insecure_mode: False
+[0m15:38:18.965873 [info ] [MainThread]:   reuse_connections: None
+[0m15:38:18.966874 [info ] [MainThread]: Registered adapter: snowflake=1.7.2
+[0m15:38:18.967874 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m15:38:18.967874 [debug] [MainThread]: Using snowflake connection "debug"
+[0m15:38:18.967874 [debug] [MainThread]: On debug: select 1 as id
+[0m15:38:18.968889 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m15:38:24.567512 [debug] [MainThread]: Snowflake adapter: Error running SQL: select 1 as id
+[0m15:38:24.567512 [debug] [MainThread]: Snowflake adapter: Rolling back transaction.
+[0m15:38:24.568518 [debug] [MainThread]: On debug: No close available on handle
+[0m15:38:24.568518 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m15:38:24.569454 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m15:38:24.570549 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Projects\others\fivetran\dbt-env\dbtv1\dbt_project.yml> not found
+
+[0m15:38:24.571458 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m15:38:24.574678 [debug] [MainThread]: Command `dbt debug` failed at 15:38:24.574678 after 6.08 seconds
+[0m15:38:24.575637 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m15:38:24.575637 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F505713460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F508B3D700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F50898C8E0>]}
+[0m15:38:24.575637 [debug] [MainThread]: Flushing usage events
+[0m16:32:25.641889 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208648A2340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208671594C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020867135B50>]}
+
+
+============================== 16:32:25.649909 | 1a1fa252-f71c-453b-be60-a0ed64f49060 ==============================
+[0m16:32:25.649909 [info ] [MainThread]: Running with dbt=1.7.8
+[0m16:32:25.651850 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\haribabu.thamatam\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m16:32:25.653908 [info ] [MainThread]: dbt version: 1.7.8
+[0m16:32:25.654922 [info ] [MainThread]: python version: 3.9.0
+[0m16:32:25.655834 [info ] [MainThread]: python path: c:\projects\others\fivetran\dbt-env\scripts\python.exe
+[0m16:32:25.658895 [info ] [MainThread]: os info: Windows-10-10.0.19041-SP0
+[0m16:32:26.367056 [info ] [MainThread]: Using profiles dir at C:\Users\haribabu.thamatam\.dbt
+[0m16:32:26.369117 [info ] [MainThread]: Using profiles.yml file at C:\Users\haribabu.thamatam\.dbt\profiles.yml
+[0m16:32:26.370096 [info ] [MainThread]: Using dbt_project.yml file at C:\Projects\others\fivetran\dbt-env\dbtv1\dbt_project.yml
+[0m16:32:26.376100 [info ] [MainThread]: adapter type: snowflake
+[0m16:32:26.378043 [info ] [MainThread]: adapter version: 1.7.2
+[0m16:32:26.380047 [info ] [MainThread]: Configuration:
+[0m16:32:26.382149 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m16:32:26.384123 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m16:32:26.385003 [info ] [MainThread]: Required dependencies:
+[0m16:32:26.386848 [debug] [MainThread]: Executing "git --help"
+[0m16:32:26.634367 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:32:26.635336 [debug] [MainThread]: STDERR: "b''"
+[0m16:32:26.636293 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:32:26.638263 [info ] [MainThread]: Connection:
+[0m16:32:26.639259 [info ] [MainThread]:   account: ASAAJTH.TL49467
+[0m16:32:26.642329 [info ] [MainThread]:   user: thamatam
+[0m16:32:26.644294 [info ] [MainThread]:   database: FIVETRAN_DATABASE_DEST
+[0m16:32:26.646220 [info ] [MainThread]:   warehouse: COMPUTE_WH
+[0m16:32:26.648309 [info ] [MainThread]:   role: ACCOUNTADMIN
+[0m16:32:26.650324 [info ] [MainThread]:   schema: PUBLIC
+[0m16:32:26.655364 [info ] [MainThread]:   authenticator: None
+[0m16:32:26.656284 [info ] [MainThread]:   private_key_path: None
+[0m16:32:26.659326 [info ] [MainThread]:   oauth_client_id: None
+[0m16:32:26.661371 [info ] [MainThread]:   query_tag: None
+[0m16:32:26.662300 [info ] [MainThread]:   client_session_keep_alive: False
+[0m16:32:26.663289 [info ] [MainThread]:   host: None
+[0m16:32:26.664331 [info ] [MainThread]:   port: None
+[0m16:32:26.667262 [info ] [MainThread]:   proxy_host: None
+[0m16:32:26.668335 [info ] [MainThread]:   proxy_port: None
+[0m16:32:26.669328 [info ] [MainThread]:   protocol: None
+[0m16:32:26.670289 [info ] [MainThread]:   connect_retries: 1
+[0m16:32:26.671204 [info ] [MainThread]:   connect_timeout: None
+[0m16:32:26.672321 [info ] [MainThread]:   retry_on_database_errors: False
+[0m16:32:26.673402 [info ] [MainThread]:   retry_all: False
+[0m16:32:26.676340 [info ] [MainThread]:   insecure_mode: False
+[0m16:32:26.678308 [info ] [MainThread]:   reuse_connections: None
+[0m16:32:26.680269 [info ] [MainThread]: Registered adapter: snowflake=1.7.2
+[0m16:32:26.682319 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m16:32:26.684258 [debug] [MainThread]: Using snowflake connection "debug"
+[0m16:32:26.684258 [debug] [MainThread]: On debug: select 1 as id
+[0m16:32:26.684258 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:32:32.752314 [debug] [MainThread]: Snowflake adapter: Error running SQL: select 1 as id
+[0m16:32:32.752314 [debug] [MainThread]: Snowflake adapter: Rolling back transaction.
+[0m16:32:32.753317 [debug] [MainThread]: On debug: No close available on handle
+[0m16:32:32.753317 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m16:32:32.754330 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m16:32:32.755315 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Projects\others\fivetran\dbt-env\dbtv1\dbt_project.yml> not found
+
+[0m16:32:32.757316 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  250001: Could not connect to Snowflake backend after 2 attempt(s).Aborting
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m16:32:32.761313 [debug] [MainThread]: Command `dbt debug` failed at 16:32:32.761313 after 7.19 seconds
+[0m16:32:32.762321 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m16:32:32.763315 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000208648A2340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020867B17BB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020867B175B0>]}
+[0m16:32:32.764314 [debug] [MainThread]: Flushing usage events
